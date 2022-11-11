@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.title("Flashy")
+st.markdown("<h1 style='text-align: center; color: red;'>Some title</h1>", unsafe_allow_html=True)
+
