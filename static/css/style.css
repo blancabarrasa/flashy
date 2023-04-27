@@ -1,0 +1,125 @@
+body {
+  margin: 10;
+  padding: 10;
+  font-family: American Typewriter, serif;
+  color: #444;
+  font-size: 20px;
+}
+
+div.card-container {
+  position: absolute;
+  width: 220px;
+  }
+
+div.card {
+  font-family: Bradley Hand, cursive;
+  position: absolute;
+  border-radius: 25px;
+  background: #FFFACD;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  font-weight: bold;
+}
+
+div.cardtext {
+  position: absolute;
+  bottom: 60%;
+  left: 5%;
+  font-weight: bold;
+}
+
+
+div.cards-title {
+  margin: 1;
+  font-size: 1.7em;
+  color: green;
+  float: left;
+}
+
+div.buttonset{
+  position: absolute;
+  bottom: 5;
+  left: 0;
+}
+
+.card-button {
+  position: relative;
+  bottom: 5;
+  left: 50%;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-button.right-button{
+background-color: #90EE90;
+}
+
+.card-button.wrong-button{
+background-color: #F08080;
+}
+
+.go-button {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+div.new-card-section{
+ margin-top:330
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1e90ff;
+  color: white;
+}
+
+div.new-card-section {
+   border-left: 6px solid #ccc!important;
+  background-color: #ddffff!important;
+    width: 300px;
+   padding: 20px;
+}
+
+.new-elem-button {
+  position: relative;
+  top: 5;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+div.new-subj-section {
+  border-left: 6px solid #ccc!important;
+  background-color: #ddffff!important;
+    width: 300px;
+   padding: 20px;
+}
